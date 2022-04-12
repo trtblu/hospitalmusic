@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+  <title>Medicine At Midnight</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+<!-- favicon-generator.org -->
+  <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="icon/favicon.ico" type="image/x-icon">
+<!-- favicon-generator.org -->
+<body>
+
+  <header>
+<button onclick="myFunction()"><img src="image/logo.png" title= "Click For Unit Two" alt="Unit Two Project" style="width:15%;"></button>
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+    <a href="track1.html">Making a Fire</a>
+    <a href="track2.html">Shame Shame</a>
+    <a href="track3.html">Cloudspotter</a>
+    <a href="track4.html">Waiting on a War</a>
+    <a href="track5.html">Medicine at Midnight</a>
+    <a href="track6.html">No Son of Mine</a>
+    <a href="track7.html">Holding Poision</a>
+    <a href="track8.html">Chasing Birds</a>
+    <a href="track9.html">Love Dies Young</a>
+  <a href="#trailer">What Drives Us Trailer</a>
+</div>
+</header>
+
+<div class="musical">
+ <h1 id="days">Medicine at Midnight<br>Offical Music Videos</h1>
+</div>
+
+<script>
+function myFunction() {
+  let text = prompt("Please Select Your Month", "April");
+  let month = text.toUpperCase();
+
+  let days;
+
+  if (month == "JANUARY" || month == "MARCH" || month == "MAY" || month == "JULY" || month == "AUGUST" || month == "OCTOBER" || month == "DECEMBER") { days = "31"; }
+  else if (month == "APRIL" || month == "JUNE" || month == "SEPTEMBER" || month == "NOVEMBER") { days = "30"; }
+  else if (month == "FEBRUARY") { days = "28/29"; }
+  else alert( text + " Is Not Currently A Month, Please Try Again");
+
+
+  if (month != null) {
+    document.getElementById("days").innerHTML =
+    "Hello, " + text + "?  HAHA, <br> Now Go Listen To Some Foo Fighters";
+  }
+
+if (month == "JANUARY" || month == "FEBRUARY" || month == "MARCH" || month == "APRIL" || month == "MAY" || month == "JUNE" || month == "JULY" || month == "AUGUST" || month == "SEPTEMBER" || month == "OCTOBER" || month == "NOVEMBER" || month == "DECEMBER") {
+  document.getElementById("days").innerHTML =
+  "Hello, " + month + "? <br> This Month Probably Has " + days + " Days!";
+  }
+}
+
+</script>
+
+
+
+
+
+ <section>
+   <h2>No Son Of Mine</h2>
+   <video width="1080" height="720" style="width:100%" controls poster="image/nsom.png">
+    <source src="video/nsom.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+ </section>
+
+ <section>
+   <h2>Chasing Birds</h2>
+   <video width="1080" height="720" style="width:100%" controls poster="image/cb.png">
+    <source src="video/cb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+ </section>
+
+ <section>
+   <h2>Waiting On A War</h2>
+   <video width="1080" height="720" style="width:100%" controls poster="image/woaw.png">
+    <source src="video/woaw.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+ </section>
+
+ <section>
+   <h2>Shame Shame</h2>
+   <video width="1080" height="720" style="width:100%" controls poster="image/ss.png">
+    <source src="video/ss.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+ </section>
+
+
+
+<div id="trailer">
+  <video width="1980" height="1280" style="width:100%" controls poster="image/wdu.png">
+    <source src="video/track0.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+</div>
+
+</body>
+</html>

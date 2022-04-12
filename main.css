@@ -1,0 +1,118 @@
+/* Strive for Progress, not Perfection */
+
+div.musical {
+  background-color: black;
+  color: white;
+  width: auto;
+  height: 240px;
+  overflow: auto;
+
+}
+
+* {
+ margin: auto;
+ font-family:'Black Ops One', helvetica;
+ text-align:center;
+ background-color: black;
+
+}
+
+
+/* NAVIGATION BAR */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: lightgrey;
+  color: black;
+}
+
+
+h1 {
+ border-style: outset;
+ border-width:5px;
+ background-color: lightgrey;
+ width: 40%;
+ line-height: 1.5;
+
+}
+
+
+h2 {
+ border-style: outset;
+ border: 2px grey;
+ border-radius: 8px;
+ width: 35%;
+ background-image: linear-gradient(to top, white, lightgrey);
+ line-height: 1.3;
+ margin-bottom: 40px;
+ margin-top: 3%
+
+}
+
+
+mark {
+ background-color: black;
+ color: white;
+
+}
+
+
+p {
+ margin: 50px;
+
+}
+
+
+section {
+ padding-top: 100px;
+
+}
+
+audio {
+ padding-bottom: 25px;
+
+}
+
+video {
+ padding-bottom: 60px;
+
+}
+
+section {
+ margin-top: 200px;
+
+}
+
+
+/* Anchor */
+a {
+ text-decoration: none;
+
+}
+
+a:link {
+ color: DeepSkyBlue;
+
+}
+
+a:visited {
+ color: hotpink;
+
+}

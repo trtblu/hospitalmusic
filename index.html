@@ -50,12 +50,20 @@ function myFunction() {
   if (month != null) {
     document.getElementById("days").innerHTML =
     "Hello, " + text + "?  HAHA, <br> Now Go Listen To Some Foo Fighters";
+    addStyle("HotPink")
   }
 
 if (month == "JANUARY" || month == "FEBRUARY" || month == "MARCH" || month == "APRIL" || month == "MAY" || month == "JUNE" || month == "JULY" || month == "AUGUST" || month == "SEPTEMBER" || month == "OCTOBER" || month == "NOVEMBER" || month == "DECEMBER") {
   document.getElementById("days").innerHTML =
   "Hello, " + month + "? <br> This Month Probably Has " + days + " Days!";
+  addStyle("DeepSkyBlue")
   }
+}
+
+// Define a function
+function addStyle(textColor) {
+  var element = document.getElementById("days");
+  element.style.color = textColor;
 }
 
 </script>
